@@ -13,3 +13,4 @@ database = client[DATABASE_NAME]
 # collections
 
 user_collection = database.get_collection("users")
+product_collection = database.get_collection("products")
